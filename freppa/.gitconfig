@@ -1,0 +1,26 @@
+[user]
+  name = Fredrik Sundstrom
+  email = fredrik.sundstrom@gmail.com
+
+[alias]
+  amend = commit --amend
+  br = branch
+  ci = commit
+  co = checkout
+  di = diff
+  ds = diff --staged
+  lol = log --graph --oneline --decorate=short
+  pullom = pull origin master
+  pushom = push origin master
+  st = status
+  zomg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  l = log --graph --pretty=format':%C(yellow)%h%Cgreen%d%Creset %s %C(white) %an, %ar%Creset'
+
+[branch]
+  color = auto
+
+[diff]
+  color = auto
+
+[status]
+  color = auto
